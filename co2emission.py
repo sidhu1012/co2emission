@@ -74,7 +74,5 @@ print('Variance score: %.2f' % regr.score(x, y))
 # In[ ]:
 
 
-msk = np.random.rand(len(df)) < 0.8
-train = cdf[msk]
-test = cdf[~msk]
+
 
